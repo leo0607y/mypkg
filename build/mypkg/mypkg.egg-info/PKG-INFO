@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: mypkg
+Version: 0.0.0
+Summary: ROS2の基礎事項練習用
+Maintainer: Reo Ymaguchi
+Maintainer-email: reochimaru@gmail.com
+License: BSD-3-Clause
+Provides-Extra: test
+License-File: LICENSE

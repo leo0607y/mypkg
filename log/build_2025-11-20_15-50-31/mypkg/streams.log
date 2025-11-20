@@ -1,0 +1,43 @@
+[0.647s] Invoking command in '/home/leo0607y/work/robo-sys/ros2_ws/src/mypkg': PYTHONPATH=/home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/mypkg build --build-base /home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/build/mypkg/build install --record /home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed install_data
+[0.779s] running egg_info
+[0.779s] creating build/mypkg/mypkg.egg-info
+[0.787s] writing build/mypkg/mypkg.egg-info/PKG-INFO
+[0.787s] writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.787s] writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+[0.788s] writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+[0.788s] writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+[0.788s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.808s] reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.808s] adding license file 'LICENSE'
+[0.808s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.809s] running build
+[0.809s] running build_py
+[0.809s] creating /home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/build/mypkg/build
+[0.809s] creating /home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/build/mypkg/build/lib
+[0.809s] creating /home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.809s] copying mypkg/__init__.py -> /home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.809s] copying mypkg/listener.py -> /home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.810s] copying mypkg/talker.py -> /home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.810s] running install
+[0.814s] running install_lib
+[0.824s] creating /home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg
+[0.824s] copying /home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/__init__.py -> /home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg
+[0.824s] copying /home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/listener.py -> /home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg
+[0.824s] copying /home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/talker.py -> /home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg
+[0.825s] byte-compiling /home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg/__init__.py to __init__.cpython-312.pyc
+[0.825s] byte-compiling /home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg/listener.py to listener.cpython-312.pyc
+[0.825s] byte-compiling /home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg/talker.py to talker.cpython-312.pyc
+[0.825s] running install_data
+[0.826s] creating /home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/install/mypkg/share/ament_index
+[0.826s] creating /home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index
+[0.826s] creating /home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[0.826s] copying resource/mypkg -> /home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[0.826s] copying package.xml -> /home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[0.826s] copying launch/talk_listen.launch.py -> /home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[0.826s] running install_egg_info
+[0.836s] Copying build/mypkg/mypkg.egg-info to /home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg-0.0.0-py3.12.egg-info
+[0.837s] running install_scripts
+[0.898s] Installing listener script to /home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.898s] Installing talker script to /home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.898s] writing list of installed files to '/home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/build/mypkg/install.log'
+[0.916s] Invoked command in '/home/leo0607y/work/robo-sys/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/mypkg build --build-base /home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/build/mypkg/build install --record /home/leo0607y/work/robo-sys/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed install_data
