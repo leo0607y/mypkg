@@ -14,7 +14,7 @@ def generate_launch_description():
         )
     listener = launch_ros.actions.Node(
         package='mypkg',
-        xecutable='listener',
+        executable='listener',
         output='screen' 
         )
 
